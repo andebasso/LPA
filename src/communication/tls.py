@@ -12,9 +12,4 @@ def create_tls_context():
     
     return context
 
-# Exemplo de uso
-if __name__ == "__main__":
-    hostname = 'example.com'
-    port = 443
-    tls_connection = create_tls_context(hostname, port)
-    # Agora você pode usar tls_connection para enviar e receber dados seguros
+
